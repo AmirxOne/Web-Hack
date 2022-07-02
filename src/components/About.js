@@ -47,7 +47,7 @@ const About = () => {
                     }
                 </div>
                 <div className='w-full text-white flex items-center justify-center mt-10'>
-                    <button className="py-3 px-5 w-44 rounded-3xl bg-gradient-to-r from-[#00d8ff] to-[#6a00ff] mt-5">use Web Hack</button>
+                    <button className="py-3 px-5 w-44 rounded-3xl bg-gradient-to-r from-[#00d8ff] to-[#6a00ff] mt-5">Use Web Hack</button>
                 </div>
                 
             </div>
