@@ -4,7 +4,7 @@ import mainBg from '../assets/video.mp4'
 
 const Main = () => {
     return (
-        <div className='h-[120vh] w-full relative -z-10'>
+        <div className='h-[100vh] w-full relative -z-10'>
             <video className='object-cover md:object-center w-full h-full' src={mainBg} autoPlay loop muted />
             <div className='w-full h-full absolute  top-0 left-0 flex flex-col justify-center items-center text-white px-5'>
                 <h1 className='font-extrabold text-3xl sm:text-4xl'>Desentralized</h1>

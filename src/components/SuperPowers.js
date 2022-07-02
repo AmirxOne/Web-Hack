@@ -4,7 +4,7 @@ import terminal from '../assets/terminal.png'
 
 const SuperPowers = () => {
     return (
-        <div className='w-full mt-10'>
+        <div className='w-full mt-20'>
             <div className='w-full px-5 md:px-0 max-w-[1240px] mx-auto bg-black flex flex-col md:flex-row items-center justify-center text-white py-10'>
                 <div className='md:w-1/2 md:pl-10 flex flex-col items-center justify-center md:items-start'>
                     <h1 className='font-extrabold text-xl md:text-2xl lg:text-3xl'>Lorem ipsum dolor sit amet.</h1>
