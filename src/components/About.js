@@ -35,7 +35,7 @@ const data = [
 
 const About = () => {
     return (
-        <div className='w-full h-[100vh]'>
+        <div className='w-full'>
             <div className='max-w-[1240px] bg-black w-full h-full mx-auto flex flex-col'>
                 <div className='text-white flex flex-col justify-center items-center px-5'>
                     <h1 className='font-extrabold text-lg sm:text-2xl md:text-4xl text-center'>A Growing Protocol Ecosystem</h1>
@@ -46,6 +46,10 @@ const About = () => {
                         data.map(item => <CardAbout key={item.id} data={item}/>)
                     }
                 </div>
+                <div className='w-full text-white flex items-center justify-center mt-10'>
+                    <button className="py-3 px-5 w-44 rounded-3xl bg-gradient-to-r from-[#00d8ff] to-[#6a00ff] mt-5">use Web Hack</button>
+                </div>
+                
             </div>
         </div>
     );

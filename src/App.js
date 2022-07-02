@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import About from './components/About';
+import SuperPowers from './components/SuperPowers';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Main/>
       <About/>
+      <SuperPowers/>
     </>
   );
 }
